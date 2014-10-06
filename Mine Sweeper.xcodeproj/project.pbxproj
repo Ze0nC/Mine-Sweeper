@@ -18,6 +18,8 @@
 		DA055D8917BD5788006915B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA055D6817BD5788006915B4 /* Cocoa.framework */; };
 		DA055D9117BD5788006915B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA055D8F17BD5788006915B4 /* InfoPlist.strings */; };
 		DA055D9317BD5788006915B4 /* Mine_SweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA055D9217BD5788006915B4 /* Mine_SweeperTests.m */; };
+		DA055D9E17BD58D0006915B4 /* MineSweeperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA055D9D17BD58D0006915B4 /* MineSweeperModel.m */; };
+		DAC67BA317BF284F00E97ABC /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC67BA217BF284F00E97ABC /* MainWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		DA055D8E17BD5788006915B4 /* Mine SweeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mine SweeperTests-Info.plist"; sourceTree = "<group>"; };
 		DA055D9017BD5788006915B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA055D9217BD5788006915B4 /* Mine_SweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mine_SweeperTests.m; sourceTree = "<group>"; };
+		DA055D9C17BD58D0006915B4 /* MineSweeperModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSweeperModel.h; sourceTree = "<group>"; };
+		DA055D9D17BD58D0006915B4 /* MineSweeperModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSweeperModel.m; sourceTree = "<group>"; };
+		DAC67BA117BF284F00E97ABC /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		DAC67BA217BF284F00E97ABC /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +121,13 @@
 		DA055D6E17BD5788006915B4 /* Mine Sweeper */ = {
 			isa = PBXGroup;
 			children = (
+				DA055D9C17BD58D0006915B4 /* MineSweeperModel.h */,
+				DA055D9D17BD58D0006915B4 /* MineSweeperModel.m */,
 				DA055D7A17BD5788006915B4 /* AppDelegate.h */,
 				DA055D7B17BD5788006915B4 /* AppDelegate.m */,
 				DA055D7D17BD5788006915B4 /* MainMenu.xib */,
+				DAC67BA117BF284F00E97ABC /* MainWindowController.h */,
+				DAC67BA217BF284F00E97ABC /* MainWindowController.m */,
 				DA055D8017BD5788006915B4 /* Images.xcassets */,
 				DA055D6F17BD5788006915B4 /* Supporting Files */,
 			);
@@ -252,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA055D9E17BD58D0006915B4 /* MineSweeperModel.m in Sources */,
 				DA055D7C17BD5788006915B4 /* AppDelegate.m in Sources */,
+				DAC67BA317BF284F00E97ABC /* MainWindowController.m in Sources */,
 				DA055D7517BD5788006915B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +478,7 @@
 				DA055D9817BD5788006915B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA055D9917BD5788006915B4 /* Build configuration list for PBXNativeTarget "Mine SweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				DA055D9B17BD5788006915B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
